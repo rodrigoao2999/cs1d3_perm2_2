@@ -18,10 +18,10 @@ raız primitiva mas pequena (entre 1 y p − 1).
  * Raiz primitiva de un numero primo "RaizPrimi"
      Funcion para hallar la raiz primitiva de un numero primo
 
-a) ¿Cual es la raız primitiva mas pequeña de 100049?
+a) ¿Cual es la raız primitiva mas pequeña de 100049? RPTA =>
 6
 
-b) Si g es la raız primitiva mas pequeña de 100049, encontrar una solucion : g^x mod 100049 = 2021
+b) Si g es la raız primitiva mas pequeña de 100049, encontrar una solucion : g^x mod 100049 = 2021 RPTA =>
 x = 86477
 
  
