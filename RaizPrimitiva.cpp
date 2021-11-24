@@ -9,7 +9,7 @@ using namespace std;
 bool encuentra(vector<int> vec, int elem);
 int expo(int x, int y, int p) ;
 int raizPrimitiva(int n);
-vector<int> FactorP(long long n);
+vector<int> FPri(long long n);
 
 int main(void)
 {   
@@ -24,7 +24,7 @@ int main(void)
 int RaizPrimi(int n){
     bool tem;
     int phi = n - 1;
-    vector<int> vec = FactorP(phi);
+    vector<int> vec = FPri(phi);
     for (int i = 2; i < n; i++) {
         if (std::__gcd(i, n) == 1) {
             tem = false;
@@ -47,7 +47,7 @@ bool encuentra(vector<int> vec, int elem)
     return 0;
 }
 
-vector<int> FactorP(long long n) {
+vector<int> FPri(long long n) {
     vector<int> res;
     long long tem = 2;
     while (tem * tem <= n) {
