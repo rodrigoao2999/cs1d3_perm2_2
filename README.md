@@ -9,13 +9,13 @@ raız primitiva mas pequena (entre 1 y p − 1).
  Implementacion: RaizPrimitiva.cpp
  Funciones
 
- -Funcion de exponenciacion modular "expo"
+ *Funcion de exponenciacion modular "expo"
      Con esta resolvemos la exponenciacion modulos
- -Buscar en el vector "encuentra"
+ *Buscar en el vector "encuentra"
      es un una función booleana que nos dice si es verdadero o falso
- -Factores primos "FPri"
+ *Factores primos "FPri"
      con esta funcion encontramos los factores primos de un numero
- -Raiz primitiva de un numero primo "RaizPrimi"
+ *Raiz primitiva de un numero primo "RaizPrimi"
      Funcion para hallar la raiz primitiva de un numero primo
 
 a) ¿Cual es la raız primitiva mas pequeña de 100049?
